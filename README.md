@@ -1,51 +1,158 @@
-AI-Driven License Plate Recognition (LPR) System
-A specialized Computer Vision project focusing on automated vehicle identification through edge detection and Optical Character Recognition (OCR). This project reflects my core work in Deep Learning and Medical Imaging by applying similar image processing techniques (Gaussian blurring, contouring, and grayscale normalization) to real-world objects.
+# 🚗 Car Number Plate Detection
 
-🚀 Overview
-This system utilizes OpenCV and Tesseract OCR to detect, isolate, and read text from vehicle license plates. By applying a multi-stage image processing pipeline, the system filters out environmental noise to accurately identify plate contours.
+A Python-based computer vision project that detects and extracts text from vehicle license plates using **OpenCV** and **Tesseract OCR**.
 
-🛠️ Technical Stack
-Language: Python
+---
 
-Computer Vision: OpenCV (cv2)
+## 📋 Table of Contents
 
-OCR Engine: Tesseract OCR
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [How It Works](#how-it-works)
+- [Project Structure](#project-structure)
+- [Limitations & Future Improvements](#limitations--future-improvements)
+- [License](#license)
 
-Image Processing: * Grayscale Conversion
+---
 
-Gaussian Blur (Noise Reduction)
+## Overview
 
-Canny Edge Detection
+This project uses image processing techniques to detect license plates in vehicle images and extract the plate number using Optical Character Recognition (OCR). It processes an input image, identifies plate-like regions using edge detection and contour analysis, and reads the text from those regions.
 
-Contour Filtering & ROI (Region of Interest) Extraction
+---
 
-📋 Pipeline Architecture
-The script follows a structured Computer Vision workflow:
+## ✨ Features
 
-Preprocessing: Convert input images to grayscale and apply Gaussian filtering to minimize background noise.
+- Detects number plate regions in vehicle images
+- Extracts and prints text from detected plates using OCR
+- Highlights detected plate contours on the original image
+- Simple and beginner-friendly codebase
 
-Edge Detection: Implement the Canny algorithm to identify the high-contrast boundaries of the plate.
+---
 
-Contour Analysis: Filter detected contours by area to differentiate the license plate from other vehicular features.
+## 🛠️ Technologies Used
 
-OCR Extraction: Crop the Region of Interest (ROI) and utilize Tesseract’s Page Segmentation Mode (--psm 8) optimized for single-word/short-string recognition.
+| Tool | Purpose |
+|------|---------|
+| Python | Core programming language |
+| OpenCV (`cv2`) | Image processing & contour detection |
+| Tesseract OCR | Text extraction from plate regions |
+| pytesseract | Python wrapper for Tesseract |
 
-⚙️ Installation & Usage
-Install Tesseract OCR: Ensure Tesseract is installed on your local machine and update the path in the script:
+---
 
-Python
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-Install Dependencies:
+## ✅ Prerequisites
 
-Bash
+Before running this project, make sure you have the following installed:
+
+- Python 3.x
+- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) — Install from the official repo or via installer
+  - **Windows:** Download from [UB-Mannheim Tesseract](https://github.com/UB-Mannheim/tesseract/wiki)
+  - **Linux:** `sudo apt install tesseract-ocr`
+  - **macOS:** `brew install tesseract`
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/car-numplate-detection.git
+cd car-numplate-detection
+```
+
+2. **Install Python dependencies:**
+
+```bash
 pip install opencv-python pytesseract
-Run the Script:
+```
 
-Bash
-python "car numplate detection.py"
-📈 Future Enhancements
-Deep Learning Integration: Transitioning from Canny edge detection to a YOLOv8 or SSD model for more robust detection in low-light/high-speed environments.
+3. **Configure Tesseract path** (Windows only):
 
-Medical Imaging Parallel: Applying these segmentation techniques to diagnostic imaging for automated feature detection in Medical Imaging.
+Open `car_numplate_detection.py` and update this line to match your Tesseract installation path:
 
-Developed by Syeda Atiqa Kanwal
+```python
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+```
+
+On Linux/macOS, this line is usually not needed.
+
+---
+
+## ▶️ Usage
+
+1. Place your vehicle image in the project directory.
+
+2. Update the `image_path` variable in the script:
+
+```python
+image_path = 'your_image.jpg'
+```
+
+3. Run the script:
+
+```bash
+python car_numplate_detection.py
+```
+
+4. A window will display the image with detected plate contours highlighted in green. The extracted plate text will be printed in the terminal:
+
+```
+Plate 1: ABC-1234
+```
+
+---
+
+## ⚙️ How It Works
+
+1. **Load Image** — Reads the vehicle image using OpenCV.
+2. **Grayscale Conversion** — Converts the image to grayscale for easier processing.
+3. **Gaussian Blur** — Reduces noise to improve edge detection accuracy.
+4. **Canny Edge Detection** — Detects edges in the blurred image.
+5. **Contour Detection** — Finds all contours from the edges.
+6. **Contour Filtering** — Filters out small contours (minimum area: 500 px²) to isolate plate-like regions.
+7. **ROI Extraction** — Crops each potential plate region from the original image.
+8. **OCR** — Uses Tesseract with `--psm 8` (single word mode) to read the plate text.
+
+---
+
+## 📁 Project Structure
+
+```
+car-numplate-detection/
+│
+├── car_numplate_detection.py   # Main detection script
+├── README.md                   # Project documentation
+└── sample_images/              # (Optional) Test images
+```
+
+---
+
+## ⚠️ Limitations & Future Improvements
+
+**Current Limitations:**
+- Works best on clear, well-lit, front-facing plate images
+- May detect false positives (non-plate regions with similar shape)
+- OCR accuracy depends on image quality and plate font
+
+**Planned Improvements:**
+- [ ] Use a trained HAAR cascade or deep learning model for more accurate plate localization
+- [ ] Add support for real-time webcam/video feed
+- [ ] Improve OCR accuracy with image preprocessing (thresholding, deskewing)
+- [ ] Support multiple image formats and batch processing
+- [ ] Build a simple GUI for ease of use
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+> Made with ❤️ using Python, OpenCV, and Tesseract OCR
