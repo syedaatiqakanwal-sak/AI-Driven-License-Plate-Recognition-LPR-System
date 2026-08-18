@@ -1,0 +1,11 @@
+# Existing GPU stack (do not reinstall unless needed):
+# torch==2.6.0+cu124
+# torchvision==0.21.0+cu124
+
+numpy>=1.26
+Pillow>=10.0
+PyYAML>=6.0
+tqdm>=4.66
+opencv-python>=4.8
+albumentations>=1.4
+segmentation-models-pytorch>=0.4

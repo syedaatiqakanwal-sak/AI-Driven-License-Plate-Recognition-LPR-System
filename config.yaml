@@ -1,0 +1,39 @@
+seed: 42
+
+data:
+  root: data/evan6007-TLPD
+  images_dir: images
+  masks_dir: masks
+  splits_dir: splits
+  image_size: 384
+
+model:
+  encoder_name: resnet34
+  encoder_weights: imagenet
+  in_channels: 3
+  classes: 1
+
+train:
+  batch_size: 4
+  grad_accum: 4
+  epochs: 40
+  num_workers: 0
+  pin_memory: true
+  amp: true
+  decoder_lr: 1.0e-4
+  encoder_lr: 1.0e-5
+  weight_decay: 1.0e-4
+  warmup_epochs: 5
+  early_stopping_patience: 10
+  min_delta: 1.0e-4
+  sanity_batches: 5
+
+loss:
+  bce_weight: 0.5
+  dice_weight: 0.5
+  dice_smooth: 1.0
+
+paths:
+  checkpoints: checkpoints
+  best_name: best_dice.pt
+  last_name: last.pt

@@ -1,0 +1,54 @@
+{
+  "stem": "0000C6(2)(0)(1)",
+  "image_shape": [
+    3,
+    384,
+    384
+  ],
+  "mask_shape": [
+    1,
+    384,
+    384
+  ],
+  "mask_unique": [
+    0.0,
+    1.0
+  ],
+  "forward_output_shape": [
+    1,
+    1,
+    384,
+    384
+  ],
+  "single_sample_loss": 0.6803936958312988,
+  "single_sample_loss_finite": true,
+  "single_sample_output_finite": true,
+  "single_sample_grads_finite": true,
+  "grad_tensors_finite": 140,
+  "grad_tensors_total": 140,
+  "batch_losses": [
+    0.7580779790878296,
+    0.6940196752548218,
+    0.7279723286628723,
+    0.7415677309036255,
+    0.6529974937438965
+  ],
+  "batch_losses_finite": true,
+  "grads_after_batches_finite": false,
+  "parameter_count": 24436369,
+  "device": "cuda",
+  "cuda_available": true,
+  "gpu_name": "NVIDIA GeForce RTX 3070",
+  "gpu_memory": {
+    "allocated_mb": 297.87646484375,
+    "reserved_mb": 888.0
+  },
+  "batch_size": 4,
+  "grad_accum": 4,
+  "amp": true,
+  "checkpoint_last": "checkpoints\\last.pt",
+  "checkpoint_best": "checkpoints\\best_dice.pt",
+  "checkpoint_last_exists": true,
+  "checkpoint_best_exists": true,
+  "config_path": "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\config.yaml"
+}
