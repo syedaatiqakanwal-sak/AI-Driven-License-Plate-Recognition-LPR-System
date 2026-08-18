@@ -1,0 +1,16 @@
+{
+  "seed": 42,
+  "counts": {
+    "train": 2122,
+    "val": 455,
+    "test": 455,
+    "total": 3032
+  },
+  "method": "Group stems by exact file hash, identical pixels, visually identical dhash (hamming 0), and same plate-id prefix after stripping trailing parenthetical suffixes. Sort groups by first stem, shuffle groups with random.Random(42), flatten, cut 2122/455/455, then keep each group in one split and rebalance using singleton stems only. Different plates with close dhash are not merged.",
+  "identifier": "filename stem; pair with images/<stem>.jpg, labels/<stem>.json, masks/<stem>.png",
+  "files": {
+    "train": "data/evan6007-TLPD/splits/train.txt",
+    "val": "data/evan6007-TLPD/splits/val.txt",
+    "test": "data/evan6007-TLPD/splits/test.txt"
+  }
+}
