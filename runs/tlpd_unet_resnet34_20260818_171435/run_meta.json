@@ -1,0 +1,7 @@
+{
+  "existing_root_checkpoints": {
+    "best_dice.pt": true,
+    "last.pt": true
+  },
+  "note": "This run writes only under the run directory and does not overwrite checkpoints/."
+}

@@ -1,0 +1,67 @@
+{
+  "run_dir": "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435",
+  "stopped_early": true,
+  "stop_reason": "early_stopping_patience_10",
+  "best_epoch": 28,
+  "best_val_dice": 0.9748489631703485,
+  "best_val_metrics_at_save": {
+    "dice": 0.9748489631703485,
+    "iou": 0.9509320364978947,
+    "precision": 0.9769797010351767,
+    "recall": 0.9727274991191134,
+    "pixel_acc": 0.9860910790598276,
+    "dice_macro": 0.9730384313174023,
+    "loss": 0.03529054032671347
+  },
+  "val_metrics_from_best_checkpoint": {
+    "dice": 0.9748489631703485,
+    "iou": 0.9509320364978947,
+    "precision": 0.9769797010351767,
+    "recall": 0.9727274991191134,
+    "pixel_acc": 0.9860910790598276,
+    "dice_macro": 0.9730384313174023,
+    "loss": 0.03529054032671347
+  },
+  "test_metrics_from_best_checkpoint": {
+    "dice": 0.9753586607306908,
+    "iou": 0.9519025080778385,
+    "precision": 0.9782273429049881,
+    "recall": 0.97250675436061,
+    "pixel_acc": 0.9859955094818362,
+    "dice_macro": 0.9741692219166462,
+    "loss": 0.03493096828133913
+  },
+  "total_training_seconds": 1545.4167763999994,
+  "peak_gpu_allocated_mb": 943.60107421875,
+  "peak_gpu_reserved_mb": 976.0,
+  "final_lr_encoder": 1.7954853643678313e-07,
+  "final_lr_decoder": 9.027170494984479e-07,
+  "epochs_ran": 38,
+  "paths": {
+    "best_checkpoint": "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435\\checkpoints\\best_dice.pt",
+    "last_checkpoint": "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435\\checkpoints\\last.pt",
+    "train_log": "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435\\train.log",
+    "config": "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435\\config.yaml",
+    "metrics": "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435\\metrics.json",
+    "evaluation": "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435\\evaluation.json",
+    "predictions": "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435\\predictions",
+    "curves": "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435\\curves"
+  },
+  "prediction_files": [
+    "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435\\predictions\\pred_01_003BMR(0).png",
+    "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435\\predictions\\pred_02_009JZQ(0).png",
+    "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435\\predictions\\pred_03_015CWM.png",
+    "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435\\predictions\\pred_04_0176XL(1)(0)(1).png",
+    "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435\\predictions\\pred_05_0406YU(0)(1).png",
+    "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435\\predictions\\pred_06_0502DA(2)(0)(1).png",
+    "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435\\predictions\\pred_07_058NTK.png",
+    "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435\\predictions\\pred_08_0667DK(0)(1).png"
+  ],
+  "curve_files": {
+    "train_loss": "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435\\curves\\train_loss.png",
+    "val_loss": "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435\\curves\\val_loss.png",
+    "val_dice": "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435\\curves\\val_dice.png",
+    "val_iou": "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435\\curves\\val_iou.png",
+    "combined": "C:\\Users\\Computer Arena\\Downloads\\car no plate detection\\AI-Driven-License-Plate-Recognition-LPR-System-1\\runs\\tlpd_unet_resnet34_20260818_171435\\curves\\training_curves.png"
+  }
+}

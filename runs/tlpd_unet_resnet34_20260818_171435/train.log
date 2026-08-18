@@ -1,0 +1,91 @@
+[2026-08-18 17:14:35] Run directory: C:\Users\Computer Arena\Downloads\car no plate detection\AI-Driven-License-Plate-Recognition-LPR-System-1\runs\tlpd_unet_resnet34_20260818_171435
+[2026-08-18 17:14:35] GPU: NVIDIA GeForce RTX 3070
+[2026-08-18 17:14:35] Existing checkpoints/best_dice.pt and checkpoints/last.pt will not be overwritten.
+[2026-08-18 17:14:35] samples train=2122 val=455 test=455
+[2026-08-18 17:14:36] parameters=24436369
+[2026-08-18 17:15:18] epoch=1/40 train_loss=0.5037 val_loss=0.4045 val_dice=0.8185 val_iou=0.6928 val_p=0.7196 val_r=0.9488 lr_enc=2.80e-06 lr_dec=2.80e-05 time=42.1s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:15:18] new best val Dice=0.8185 at epoch 1
+[2026-08-18 17:16:00] epoch=2/40 train_loss=0.3317 val_loss=0.2900 val_dice=0.9185 val_iou=0.8493 val_p=0.8710 val_r=0.9715 lr_enc=4.60e-06 lr_dec=4.60e-05 time=41.9s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:16:01] new best val Dice=0.9185 at epoch 2
+[2026-08-18 17:16:42] epoch=3/40 train_loss=0.2597 val_loss=0.2352 val_dice=0.9322 val_iou=0.8731 val_p=0.8887 val_r=0.9803 lr_enc=6.40e-06 lr_dec=6.40e-05 time=41.1s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:16:43] new best val Dice=0.9322 at epoch 3
+[2026-08-18 17:17:23] epoch=4/40 train_loss=0.2100 val_loss=0.1896 val_dice=0.9501 val_iou=0.9050 val_p=0.9228 val_r=0.9791 lr_enc=8.20e-06 lr_dec=8.20e-05 time=40.8s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:17:24] new best val Dice=0.9501 at epoch 4
+[2026-08-18 17:18:04] epoch=5/40 train_loss=0.1636 val_loss=0.1459 val_dice=0.9581 val_iou=0.9196 val_p=0.9452 val_r=0.9714 lr_enc=1.00e-05 lr_dec=1.00e-04 time=40.3s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:18:05] new best val Dice=0.9581 at epoch 5
+[2026-08-18 17:18:45] epoch=6/40 train_loss=0.1245 val_loss=0.1163 val_dice=0.9636 val_iou=0.9297 val_p=0.9488 val_r=0.9787 lr_enc=9.98e-06 lr_dec=9.98e-05 time=40.1s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:18:46] new best val Dice=0.9636 at epoch 6
+[2026-08-18 17:19:26] epoch=7/40 train_loss=0.0985 val_loss=0.0863 val_dice=0.9673 val_iou=0.9366 val_p=0.9635 val_r=0.9711 lr_enc=9.92e-06 lr_dec=9.92e-05 time=40.3s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:19:27] new best val Dice=0.9673 at epoch 7
+[2026-08-18 17:20:07] epoch=8/40 train_loss=0.0806 val_loss=0.0751 val_dice=0.9686 val_iou=0.9391 val_p=0.9683 val_r=0.9689 lr_enc=9.82e-06 lr_dec=9.82e-05 time=40.2s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:20:08] new best val Dice=0.9686 at epoch 8
+[2026-08-18 17:20:47] epoch=9/40 train_loss=0.0688 val_loss=0.0639 val_dice=0.9711 val_iou=0.9439 val_p=0.9699 val_r=0.9724 lr_enc=9.68e-06 lr_dec=9.68e-05 time=39.9s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:20:48] new best val Dice=0.9711 at epoch 9
+[2026-08-18 17:21:28] epoch=10/40 train_loss=0.0598 val_loss=0.0554 val_dice=0.9714 val_iou=0.9444 val_p=0.9722 val_r=0.9706 lr_enc=9.51e-06 lr_dec=9.51e-05 time=39.9s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:21:29] new best val Dice=0.9714 at epoch 10
+[2026-08-18 17:22:09] epoch=11/40 train_loss=0.0534 val_loss=0.0516 val_dice=0.9718 val_iou=0.9452 val_p=0.9735 val_r=0.9702 lr_enc=9.30e-06 lr_dec=9.29e-05 time=40.0s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:22:09] new best val Dice=0.9718 at epoch 11
+[2026-08-18 17:22:49] epoch=12/40 train_loss=0.0491 val_loss=0.0464 val_dice=0.9717 val_iou=0.9450 val_p=0.9745 val_r=0.9690 lr_enc=9.05e-06 lr_dec=9.05e-05 time=40.0s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:22:49] no val Dice improvement for 1/10 epochs
+[2026-08-18 17:23:29] epoch=13/40 train_loss=0.0452 val_loss=0.0464 val_dice=0.9714 val_iou=0.9444 val_p=0.9692 val_r=0.9736 lr_enc=8.78e-06 lr_dec=8.77e-05 time=40.0s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:23:30] no val Dice improvement for 2/10 epochs
+[2026-08-18 17:24:10] epoch=14/40 train_loss=0.0434 val_loss=0.0424 val_dice=0.9727 val_iou=0.9469 val_p=0.9792 val_r=0.9664 lr_enc=8.47e-06 lr_dec=8.46e-05 time=40.1s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:24:10] new best val Dice=0.9727 at epoch 14
+[2026-08-18 17:24:50] epoch=15/40 train_loss=0.0415 val_loss=0.0409 val_dice=0.9732 val_iou=0.9478 val_p=0.9760 val_r=0.9704 lr_enc=8.14e-06 lr_dec=8.12e-05 time=40.0s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:24:51] new best val Dice=0.9732 at epoch 15
+[2026-08-18 17:25:31] epoch=16/40 train_loss=0.0401 val_loss=0.0419 val_dice=0.9718 val_iou=0.9452 val_p=0.9681 val_r=0.9755 lr_enc=7.78e-06 lr_dec=7.76e-05 time=40.0s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:25:31] no val Dice improvement for 1/10 epochs
+[2026-08-18 17:26:11] epoch=17/40 train_loss=0.0389 val_loss=0.0402 val_dice=0.9733 val_iou=0.9479 val_p=0.9698 val_r=0.9768 lr_enc=7.40e-06 lr_dec=7.37e-05 time=40.1s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:26:12] no val Dice improvement for 2/10 epochs
+[2026-08-18 17:26:52] epoch=18/40 train_loss=0.0380 val_loss=0.0385 val_dice=0.9735 val_iou=0.9483 val_p=0.9731 val_r=0.9738 lr_enc=7.00e-06 lr_dec=6.97e-05 time=39.9s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:26:52] new best val Dice=0.9735 at epoch 18
+[2026-08-18 17:27:32] epoch=19/40 train_loss=0.0372 val_loss=0.0379 val_dice=0.9739 val_iou=0.9491 val_p=0.9782 val_r=0.9696 lr_enc=6.58e-06 lr_dec=6.55e-05 time=40.0s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:27:33] new best val Dice=0.9739 at epoch 19
+[2026-08-18 17:28:13] epoch=20/40 train_loss=0.0359 val_loss=0.0377 val_dice=0.9741 val_iou=0.9495 val_p=0.9715 val_r=0.9768 lr_enc=6.15e-06 lr_dec=6.12e-05 time=39.9s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:28:13] new best val Dice=0.9741 at epoch 20
+[2026-08-18 17:28:54] epoch=21/40 train_loss=0.0356 val_loss=0.0377 val_dice=0.9737 val_iou=0.9487 val_p=0.9707 val_r=0.9766 lr_enc=5.71e-06 lr_dec=5.68e-05 time=40.4s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:28:54] no val Dice improvement for 1/10 epochs
+[2026-08-18 17:29:34] epoch=22/40 train_loss=0.0346 val_loss=0.0382 val_dice=0.9736 val_iou=0.9485 val_p=0.9756 val_r=0.9716 lr_enc=5.27e-06 lr_dec=5.23e-05 time=40.2s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:29:35] no val Dice improvement for 2/10 epochs
+[2026-08-18 17:30:14] epoch=23/40 train_loss=0.0345 val_loss=0.0387 val_dice=0.9731 val_iou=0.9477 val_p=0.9781 val_r=0.9682 lr_enc=4.83e-06 lr_dec=4.78e-05 time=39.9s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:30:15] no val Dice improvement for 3/10 epochs
+[2026-08-18 17:30:55] epoch=24/40 train_loss=0.0337 val_loss=0.0377 val_dice=0.9736 val_iou=0.9486 val_p=0.9762 val_r=0.9711 lr_enc=4.39e-06 lr_dec=4.33e-05 time=40.1s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:30:55] no val Dice improvement for 4/10 epochs
+[2026-08-18 17:31:35] epoch=25/40 train_loss=0.0337 val_loss=0.0370 val_dice=0.9743 val_iou=0.9500 val_p=0.9722 val_r=0.9765 lr_enc=3.95e-06 lr_dec=3.89e-05 time=40.1s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:31:36] new best val Dice=0.9743 at epoch 25
+[2026-08-18 17:32:16] epoch=26/40 train_loss=0.0332 val_loss=0.0375 val_dice=0.9736 val_iou=0.9485 val_p=0.9793 val_r=0.9678 lr_enc=3.52e-06 lr_dec=3.46e-05 time=40.3s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:32:16] no val Dice improvement for 1/10 epochs
+[2026-08-18 17:32:56] epoch=27/40 train_loss=0.0327 val_loss=0.0360 val_dice=0.9744 val_iou=0.9501 val_p=0.9730 val_r=0.9758 lr_enc=3.10e-06 lr_dec=3.04e-05 time=40.1s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:32:57] no val Dice improvement for 2/10 epochs
+[2026-08-18 17:33:37] epoch=28/40 train_loss=0.0324 val_loss=0.0353 val_dice=0.9748 val_iou=0.9509 val_p=0.9770 val_r=0.9727 lr_enc=2.70e-06 lr_dec=2.64e-05 time=40.0s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:33:37] new best val Dice=0.9748 at epoch 28
+[2026-08-18 17:34:17] epoch=29/40 train_loss=0.0328 val_loss=0.0350 val_dice=0.9749 val_iou=0.9510 val_p=0.9756 val_r=0.9742 lr_enc=2.32e-06 lr_dec=2.25e-05 time=40.0s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:34:18] no val Dice improvement for 1/10 epochs
+[2026-08-18 17:34:58] epoch=30/40 train_loss=0.0316 val_loss=0.0359 val_dice=0.9746 val_iou=0.9504 val_p=0.9750 val_r=0.9742 lr_enc=1.96e-06 lr_dec=1.89e-05 time=40.4s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:34:58] no val Dice improvement for 2/10 epochs
+[2026-08-18 17:35:38] epoch=31/40 train_loss=0.0316 val_loss=0.0357 val_dice=0.9746 val_iou=0.9505 val_p=0.9768 val_r=0.9725 lr_enc=1.63e-06 lr_dec=1.55e-05 time=40.1s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:35:39] no val Dice improvement for 3/10 epochs
+[2026-08-18 17:36:19] epoch=32/40 train_loss=0.0313 val_loss=0.0351 val_dice=0.9749 val_iou=0.9510 val_p=0.9739 val_r=0.9759 lr_enc=1.32e-06 lr_dec=1.24e-05 time=40.0s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:36:19] no val Dice improvement for 4/10 epochs
+[2026-08-18 17:36:59] epoch=33/40 train_loss=0.0312 val_loss=0.0353 val_dice=0.9747 val_iou=0.9506 val_p=0.9754 val_r=0.9740 lr_enc=1.05e-06 lr_dec=9.64e-06 time=40.1s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:36:59] no val Dice improvement for 5/10 epochs
+[2026-08-18 17:37:40] epoch=34/40 train_loss=0.0310 val_loss=0.0362 val_dice=0.9743 val_iou=0.9499 val_p=0.9760 val_r=0.9726 lr_enc=8.01e-07 lr_dec=7.17e-06 time=40.1s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:37:40] no val Dice improvement for 6/10 epochs
+[2026-08-18 17:38:20] epoch=35/40 train_loss=0.0308 val_loss=0.0361 val_dice=0.9744 val_iou=0.9501 val_p=0.9734 val_r=0.9754 lr_enc=5.90e-07 lr_dec=5.05e-06 time=40.0s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:38:20] no val Dice improvement for 7/10 epochs
+[2026-08-18 17:39:00] epoch=36/40 train_loss=0.0308 val_loss=0.0352 val_dice=0.9747 val_iou=0.9507 val_p=0.9754 val_r=0.9741 lr_enc=4.16e-07 lr_dec=3.29e-06 time=40.0s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:39:01] no val Dice improvement for 8/10 epochs
+[2026-08-18 17:39:41] epoch=37/40 train_loss=0.0304 val_loss=0.0356 val_dice=0.9746 val_iou=0.9505 val_p=0.9741 val_r=0.9752 lr_enc=2.78e-07 lr_dec=1.90e-06 time=40.0s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:39:41] no val Dice improvement for 9/10 epochs
+[2026-08-18 17:40:21] epoch=38/40 train_loss=0.0302 val_loss=0.0356 val_dice=0.9746 val_iou=0.9505 val_p=0.9745 val_r=0.9748 lr_enc=1.80e-07 lr_dec=9.03e-07 time=39.9s mem_alloc=293MB mem_res=968MB peak_alloc=944MB
+[2026-08-18 17:40:21] no val Dice improvement for 10/10 epochs
+[2026-08-18 17:40:21] Early stopping at epoch 38
+[2026-08-18 17:40:31] {
+  "best_epoch": 28,
+  "best_val_dice": 0.9748489631703485,
+  "stopped_early": true,
+  "stop_reason": "early_stopping_patience_10",
+  "total_training_seconds": 1545.4167763999994
+}
+[2026-08-18 17:40:31] test metrics: {"dice": 0.9753586607306908, "iou": 0.9519025080778385, "precision": 0.9782273429049881, "recall": 0.97250675436061, "pixel_acc": 0.9859955094818362, "dice_macro": 0.9741692219166462, "loss": 0.03493096828133913}
+[2026-08-18 17:40:31] Training run finished.
